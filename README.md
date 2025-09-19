@@ -5,3 +5,12 @@
     dotnet add package Serilog.Sinks.File
     dotnet add package Serilog.Sinks.Console
 
+## Selenium
+	dotnet add package Selenium.WebDriver
+	
+## Excel
+	dotnet add package DocumentFormat.OpenXml	
+
+## Radzen
+	dotnet add package Radzen.Blazor
+	
