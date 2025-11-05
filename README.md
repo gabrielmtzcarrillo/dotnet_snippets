@@ -13,4 +13,6 @@
 
 ## Radzen
 	dotnet add package Radzen.Blazor
-	
+
+## PDF
+dotnet add package QuestPDF
