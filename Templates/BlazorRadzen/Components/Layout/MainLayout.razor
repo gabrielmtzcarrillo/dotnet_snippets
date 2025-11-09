@@ -1,0 +1,36 @@
+﻿@inherits LayoutComponentBase
+<RadzenComponents />
+<RadzenTheme Theme="default" />
+
+<RadzenLayout>
+    <RadzenHeader>
+        <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="0">
+            <RadzenSidebarToggle Click="ToggleStartSidebar" />
+            <RadzenLabel Text="Header" />
+        </RadzenStack>
+    </RadzenHeader>
+
+    <RadzenSidebar Position="SidebarPosition.Start" Responsive="false" Expanded="@MainSidebarExpanded">
+        <RadzenPanelMenu Multiple="true" ShowArrow="true">
+            <NavMenu />
+        </RadzenPanelMenu>
+    </RadzenSidebar>
+
+    <RadzenBody class="">
+        @Body
+    </RadzenBody>
+</RadzenLayout>
+
+@code {
+    public bool MainSidebarExpanded = true;
+
+    public void ToggleStartSidebar() => MainSidebarExpanded = !MainSidebarExpanded;
+}
+
+
+<div id="blazor-error-ui" data-nosnippet>
+    An unhandled error has occurred.
+    <a href="." class="reload">Reload</a>
+    <span class="dismiss">🗙</span>
+</div>
+
