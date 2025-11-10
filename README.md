@@ -16,3 +16,8 @@
 
 ## PDF
 dotnet add package QuestPDF
+
+
+# Referencias
+Lenguajes soportados por el coloreado de sintáxis de Markdown:
+https://pygments.org/languages/
