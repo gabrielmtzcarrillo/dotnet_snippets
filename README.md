@@ -15,4 +15,11 @@
 	dotnet add package Radzen.Blazor
 
 ## PDF
-dotnet add package QuestPDF
+    dotnet add package QuestPDF
+
+## Cargar configuraciones de appsettings.json
+    dotnet add package Microsoft.Extensions.Configuration.Binder
+    dotnet add package Microsoft.Extensions.Configuration.Json
+
+### Para serilog
+    dotnet add package Serilog.Settings.Configuration
