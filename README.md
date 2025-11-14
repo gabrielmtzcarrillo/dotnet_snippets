@@ -23,3 +23,8 @@
 
 ### Para serilog
     dotnet add package Serilog.Settings.Configuration
+
+# Referencias
+Lenguajes soportados por el coloreado de sintáxis de Markdown:
+https://pygments.org/languages/
+
